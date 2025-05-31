@@ -1,0 +1,45 @@
+name: validating_mis
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pytorch=2.1
+  - pytorch-cuda=12.1
+  - jupyter
+  - jupyterlab
+  - torchtext
+  - einops
+  - plotly
+  - python-kaleido
+  - wandb
+  - numpy=1
+  - gdown
+  - pandas
+  - altair
+  - scipy
+  - sympy
+  - graphviz
+  - python-graphviz
+  - scikit-learn=1.5.0
+  - statsmodels
+  - matplotlib
+  - numba
+  - toolz
+  - tqdm
+  - pip
+  - pylint
+  - dill
+  - ipykernel
+  - ipywidgets
+  - nbformat
+  - pip:
+      - z3-solver
+      - python-sat
+      - cnfgen
+      - circuitsvis
+      - python-louvain
+      - altair_saver
+      - vegafusion[embed]
+      - vegafusion-jupyter[embed]
